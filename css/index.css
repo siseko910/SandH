@@ -1,0 +1,129 @@
+body {
+  margin: 0 auto;
+}
+.nav{
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url("../images/l.jpeg") no-repeat;
+background-size: cover;
+width: 100%;
+background-position: center;
+height: 650px;
+}
+
+.nav ul{
+  list-style: none;
+  text-align: center;
+  margin-top: -10px;
+  }
+  .socialmedia{
+    background-color: inherit;
+    float: right;margin-top: 10px;
+  }
+  .nav ul li{
+    display: inline-grid;
+    margin: 20px;
+    }
+
+    .nav ul li a{
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      font-family: 'Spartan', sans-serif;
+margin-top: 10px;
+    }
+    .nav h1{
+      text-align: center;
+      font-size: 50px;
+      padding-top: 100px;
+      color: white;
+      font-family: 'Oxanium',cursive;
+
+    }
+    .lilnav1{
+      font-family: 'Crimson Text', serif;
+      color: white;
+      padding-top: 90px;
+      background-position: center;
+      background-size: auto;
+    }
+    .lilnav1 h2{
+      font-size: 40px;
+    }
+    .lilnav2 {
+      background:url("../images/logo.png") no-repeat;
+      background-position: right;
+
+    }
+    .container{
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .lets h1{
+      text-align: center;
+      font-family: 'Nunito Sans', sans-serif;
+
+    }
+    .Portraits{
+      grid-template-columns: auto auto auto;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-column-gap: 40px;
+    }
+#f{
+height: 300px;
+width: 275px;
+border: 2px solid #bbbbbb;
+text-align: center;
+border-radius: 10px;
+
+    }
+    #c{
+    height: 300px;
+    width: 275px;
+    border: 2px solid #bbbbbb;
+    text-align: center;
+    border-radius: 10px;
+        }
+        #e{
+          border-radius: 10px;
+        height: 300px;
+        width: 275px;
+        border: 2px solid #bbbbbb;
+        text-align: center;
+            }
+    .s-h{
+      text-align: center;
+      height: 10px;
+            }
+    .lets {
+      grid-template-columns: auto auto auto;
+      padding:10px;
+      text-align: center;
+      overflow: hidden;
+      background: #e7ebef;
+
+    }
+     .lets a:hover {
+       color:#bbbbbb;
+     }
+     .lets a:active {
+       color:#bbbbbb;
+     }
+     .lets:hover img{
+       transition: all 0.5s;
+       -webkit-transition: all 0.5s;
+       -moz-transition: all 0.5s
+     }
+     .Portraits img:hover {
+ transform: scale(1.5);
+/* opacity: .5; */
+     }
+    .lets h2{
+      font-family: 'Playfair Display', serif;
+
+    }
+    .lets h2 a {
+      color:#bbbbbb;
+      text-decoration: none;
+    }
