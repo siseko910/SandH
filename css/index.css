@@ -7,17 +7,22 @@ background-size: cover;
 width: 100%;
 background-position: center;
 height: 650px;
+
 }
 
 .nav ul{
   list-style: none;
   text-align: center;
   margin-top: -10px;
+
   }
   .socialmedia{
     background-color: inherit;
-    float: right;margin-top: 10px;
+    float: right;
+    margin-top: 10px;
+    padding: 15px;
   }
+
   .nav ul li{
     display: inline-grid;
     margin: 20px;
@@ -38,12 +43,28 @@ margin-top: 10px;
       font-family: 'Oxanium',cursive;
 
     }
+    .container{
+      grid-template-columns: auto auto auto;
+      padding:10px;
+      text-align: center;
+      overflow: hidden;
+
+    }
+    .lilnav{
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      font-family: 'Spartan', sans-serif;
+      height: 300px;
+      width: 275px;
+    }
     .lilnav1{
       font-family: 'Crimson Text', serif;
       color: white;
       padding-top: 90px;
-      background-position: center;
-      background-size: auto;
+      text-align: center;
+      height: 300px;
+      width: 275px;
     }
     .lilnav1 h2{
       font-size: 40px;
@@ -51,7 +72,8 @@ margin-top: 10px;
     .lilnav2 {
       background:url("../images/logo.png") no-repeat;
       background-position: right;
-
+      height: 300px;
+      width: 275px;
     }
     .container{
       text-align: center;
