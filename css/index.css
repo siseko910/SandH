@@ -149,3 +149,104 @@ border-radius: 10px;
       color:#bbbbbb;
       text-decoration: none;
     }
+
+    .pic{
+      grid-template-columns: auto auto;
+      display:grid; 
+      padding-top: 50px;
+      justify-content: center;
+          }
+    .main {
+      justify-content: center;
+      grid-template-columns: auto auto;
+      display: grid;
+      align-items: center;
+      grid-column-gap: 50px;
+    }
+
+    .wedding img{
+      margin-left:  300px;
+    }
+/*
+    .wed{
+      grid-template-columns: auto auto;
+      display: grid;*/
+    }
+
+    .heading{
+     margin-right: 600px;
+     margin-left: 50px;
+    }
+
+    .heading h1 p{
+     font-size: 10px;
+     margin-left: -100px;
+    }
+
+    .pic img h1{
+      /*display: inline;
+*/      justify-content: center;
+    }
+    
+    .journal h1{
+      font-size: 20px;
+      margin-right: 100px;
+      margin-top: -20px;
+    }
+    
+    .journal p{
+      font-size: 10px;
+    }
+
+     .pic img{
+      height: 300px;
+      border-radius: 20px;
+    }
+    
+
+    .pic h1{
+        display: inline;
+      padding-top: 500px;
+      font-size: 20px;
+      margin-bottom: 500px;
+     }
+
+     .button{
+        color: #aaaaaa;
+     }
+      
+      .last{
+       grid-template-columns: auto auto auto auto;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-column-gap: 40px;
+
+      }
+
+      #p1{
+        height: 80px;
+        width: 100px;
+      }
+
+      #p2{
+       height: 80px;
+        width: 100px;
+      }
+
+      #p3{
+        height: 80px;
+        width: 100px;
+      }
+
+      .copyright{
+        text-align: center;
+        background-color: #eee8dc;
+        margin-bottom: -30px;
+      }
+
+
+    
+
+    
+   
