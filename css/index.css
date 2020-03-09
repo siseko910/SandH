@@ -2,12 +2,19 @@ body {
   margin: 0 auto;
 }
 .nav{
-background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url("../images/l.jpeg") no-repeat;
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url("../images/wed.jpg") no-repeat;
 background-size: cover;
 width: 100%;
 background-position: center;
-height: 650px;
+height: 750px;
+font-family: 'Playfair Display', serif;
 
+}
+
+#button {
+  color: white;
+  background-color: #aaaaaa;
+  border-radius: 20px;
 }
 
 .nav ul{
@@ -33,14 +40,21 @@ height: 650px;
       text-align: center;
       color: white;
       font-family: 'Spartan', sans-serif;
-margin-top: 10px;
+      margin-top: 10px;
+      font-size: 10px;
+      padding: 30px;
     }
+
+    .nav ul li a:hover{
+      color: #aaaaaa;
+    }
+
     .nav h1{
       text-align: center;
       font-size: 50px;
       padding-top: 100px;
       color: white;
-      font-family: 'Oxanium',cursive;
+      font-family: 'Open Sans Condensed', sans-serif;
 
     }
     .container{
@@ -49,36 +63,48 @@ margin-top: 10px;
       text-align: center;
       overflow: hidden;
 
+
     }
     .lilnav{
       text-decoration: none;
       text-align: center;
       color: white;
-      font-family: 'Spartan', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
       height: 300px;
       width: 275px;
+      padding-top: 90px;
+      border: 0.10px solid white;
+      height: 100px;
+
     }
     .lilnav1{
-      font-family: 'Crimson Text', serif;
+font-family: 'Playfair Display', serif;
       color: white;
       padding-top: 90px;
       text-align: center;
       height: 300px;
-      width: 275px;
-    }
+      width: 275px;    }
     .lilnav1 h2{
-      font-size: 40px;
+      font-size: 30px;
+      font-weight: lighter;
+      width: 100%;
     }
     .lilnav2 {
-      background:url("../images/logo.png") no-repeat;
+      border: .8px solid #ccc;
       background-position: right;
       height: 300px;
       width: 275px;
+      padding-top: -150px;
+      padding-bottom: -250px;
+
     }
     .container{
       text-align: center;
       display: grid;
       grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-content: center;
+      grid-column-gap: 40px;
     }
     .lets h1{
       text-align: center;
@@ -139,10 +165,10 @@ border-radius: 10px;
      }
      .Portraits img:hover {
  transform: scale(1.5);
-/* opacity: .5; */
+/*opacity: .5; */
      }
     .lets h2{
-      font-family: 'Playfair Display', serif;
+      font-family: 'Open Sans Condensed', sans-serif;
 
     }
     .lets h2 a {
@@ -162,6 +188,7 @@ border-radius: 10px;
       display: grid;
       align-items: center;
       grid-column-gap: 50px;
+      padding: 40px;
     }
 
     .wedding img{
@@ -176,6 +203,7 @@ border-radius: 10px;
     .heading{
      margin-right: 600px;
      margin-left: 50px;
+
     }
 
     .heading h1 p{
@@ -192,6 +220,8 @@ border-radius: 10px;
       font-size: 20px;
       margin-right: 100px;
       margin-top: -20px;
+
+
     }
     
     .journal p{
@@ -202,7 +232,21 @@ border-radius: 10px;
       height: 300px;
       border-radius: 20px;
     }
-    
+    @media(max-width: 500px){
+      body {
+        background:#bbbbbb;
+      }
+    }
+    @media(max-width: 500px){
+      main {
+        background:#bbbbbb;
+      }
+    }
+    @media(max-width: 500px){
+      footer {
+        background:#bbbbbb;
+      }
+    }
 
     .pic h1{
         display: inline;
@@ -221,7 +265,28 @@ border-radius: 10px;
       align-items: center;
       justify-content: center;
       grid-column-gap: 40px;
+      padding: 100px;
+            font-family: 'Open Sans Condensed', sans-serif;
+ 
+    }
 
+
+.main{
+      font-family: 'Open Sans Condensed', sans-serif;
+
+}
+      .heading{
+        border-right: 2px solid #aaaaaa;
+        padding-right: 20px;
+      }
+      .para1{
+        border-right: 2px solid #aaaaaa;
+        padding-right: 20px;
+      }
+      
+      .para3{
+        border-left: 2px solid #aaaaaa;
+        padding-left: 20px;
       }
 
       #p1{
@@ -243,6 +308,8 @@ border-radius: 10px;
         text-align: center;
         background-color: #eee8dc;
         margin-bottom: -30px;
+              font-family: 'Open Sans Condensed', sans-serif;
+
       }
 
 
