@@ -1,5 +1,13 @@
+html{
+        scroll-behavior: smooth;
+
+}
 body {
-  margin: 0 auto;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+
+
 }
 .nav{
 background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url("../images/wed.jpg") no-repeat;
@@ -8,8 +16,9 @@ width: 100%;
 background-position: center;
 height: 750px;
 font-family: 'Playfair Display', serif;
-
+margin-top: -43px;
 }
+
 
 #button {
   color: white;
@@ -21,6 +30,7 @@ font-family: 'Playfair Display', serif;
   list-style: none;
   text-align: center;
   margin-top: -10px;
+  
 
   }
   .socialmedia{
@@ -43,7 +53,7 @@ font-family: 'Playfair Display', serif;
       margin-top: 10px;
       font-size: 10px;
       padding: 30px;
-    }
+     }
 
     .nav ul li a:hover{
       color: #aaaaaa;
@@ -62,7 +72,8 @@ font-family: 'Playfair Display', serif;
       padding:10px;
       text-align: center;
       overflow: hidden;
-
+      justify-content: center;
+      align-items: center;
 
     }
     .lilnav{
@@ -72,7 +83,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Open Sans Condensed', sans-serif;
       height: 300px;
       width: 275px;
-      padding-top: 90px;
+      /*padding-top: 90px;*/
       border: 0.10px solid white;
       height: 100px;
 
@@ -80,7 +91,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     .lilnav1{
 font-family: 'Playfair Display', serif;
       color: white;
-      padding-top: 90px;
+      padding-top: 200px;
       text-align: center;
       height: 300px;
       width: 275px;    }
@@ -92,7 +103,7 @@ font-family: 'Playfair Display', serif;
     .lilnav2 {
       border: .8px solid #ccc;
       background-position: right;
-      height: 300px;
+      height: 110px;
       width: 275px;
       padding-top: -150px;
       padding-bottom: -250px;
@@ -117,6 +128,7 @@ font-family: 'Playfair Display', serif;
       align-items: center;
       justify-content: center;
       grid-column-gap: 40px;
+      height: 550px;
     }
 #f{
 height: 300px;
@@ -124,6 +136,7 @@ width: 275px;
 border: 2px solid #bbbbbb;
 text-align: center;
 border-radius: 10px;
+margin-top: 30px;
 
     }
     #c{
@@ -139,7 +152,10 @@ border-radius: 10px;
         width: 275px;
         border: 2px solid #bbbbbb;
         text-align: center;
-            }
+
+        }
+
+
     .s-h{
       text-align: center;
       height: 10px;
@@ -309,6 +325,11 @@ border-radius: 10px;
         background-color: #eee8dc;
         margin-bottom: -30px;
               font-family: 'Open Sans Condensed', sans-serif;
+
+      }
+      .socialmedia input[type=text]{
+        border-radius: 10px;
+        font-size: 13px;
 
       }
 
