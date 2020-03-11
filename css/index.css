@@ -10,7 +10,7 @@ body {
 
 }
 .nav{
-background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url("../images/wed.jpg") no-repeat;
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url("../Images/wed.jpg") no-repeat;
 background-size: cover;
 width: 100%;
 background-position: center;
@@ -124,7 +124,7 @@ font-family: 'Playfair Display', serif;
       text-align: center;
       font-family: 'Nunito Sans', sans-serif;
     }
-    
+
     .Portraits{
       grid-template-columns: auto auto auto;
       display: grid;
