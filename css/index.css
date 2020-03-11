@@ -39,6 +39,9 @@ margin-top: -43px;
     margin-top: 10px;
     padding: 15px;
   }
+  .socialmedia a:hover {
+       color:#bbbbbb;
+     }
 
   .nav ul li{
     display: inline-grid;
@@ -120,8 +123,8 @@ font-family: 'Playfair Display', serif;
     .lets h1{
       text-align: center;
       font-family: 'Nunito Sans', sans-serif;
-
     }
+    
     .Portraits{
       grid-template-columns: auto auto auto;
       display: grid;
@@ -330,8 +333,9 @@ margin-top: 30px;
       .socialmedia input[type=text]{
         border-radius: 10px;
         font-size: 13px;
-
+       background-color: #eeeeee;
       }
+
 
 
     
